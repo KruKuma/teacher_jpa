@@ -1,7 +1,7 @@
 <h1 align="center">Teaching Staff Data Management System using JPA</h1>
 
 <p align="center">
-  This is a data management System for teaching staff using JPA. Following tutorial from [Tutorialspoint].
+  This is a data management System for teaching staff using JPA. Following tutorial from <a href="https://www.tutorialspoint.com/jpa/index.htm">Tutorialspoint</a>.
 </p>
 
 <p>Inheritance is the core concept of object oriented language, therefore we can use inheritance relationships or strategies between entities. JPA support three types of inheritance strategies such as SINGLE_TABLE, JOINED_TABLE, and TABLE_PER_CONCRETE_CLASS.</p>
