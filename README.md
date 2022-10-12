@@ -1,8 +1,10 @@
 <h1 align="center">Teaching Staff Data Management System using JPA</h1>
 
-<p align="center">
+<p>
   This is a data management System for teaching staff using JPA. Following tutorial from <a href="https://www.tutorialspoint.com/jpa/index.htm">Tutorialspoint</a>.
 </p>
+
+<h3>Inheritance Strategies</h3>
 
 <p>Inheritance is the core concept of object oriented language, therefore we can use inheritance relationships or strategies between entities. JPA support three types of inheritance strategies such as SINGLE_TABLE, JOINED_TABLE, and TABLE_PER_CONCRETE_CLASS.</p>
 
@@ -13,5 +15,5 @@
 
 <p>In the above shown diagram Staff is an entity and TeachingStaff and NonTeachingStaff are the sub entities of Staff. Here we will discuss the above example in all three strategies of inheritance.</p>
 
-<h3>Single Table strategy</h2>
+<h3>Single Table Strategy</h3>
 <p>Single-Table strategy takes all classes fields (both super and sub classes) and map them down into a single table known as SINGLE_TABLE strategy. Here discriminator value plays key role in differentiating the values of three entities in one table.</p>
