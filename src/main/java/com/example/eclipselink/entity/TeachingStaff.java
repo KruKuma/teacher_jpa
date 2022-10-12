@@ -1,10 +1,8 @@
 package com.example.eclipselink.entity;
 
 import javax.persistence.Entity;
-import javax.persistence.PrimaryKeyJoinColumn;
 
 @Entity
-@PrimaryKeyJoinColumn(referencedColumnName="sid")
 
 public class TeachingStaff extends Staff {
 	
