@@ -1,10 +1,10 @@
 package com.example.eclipselink.entity;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
+import javax.persistence.PrimaryKeyJoinColumn;
 
 @Entity
-@DiscriminatorValue( value="TS" )
+@PrimaryKeyJoinColumn(referencedColumnName="sid")
 
 public class TeachingStaff extends Staff {
 	
