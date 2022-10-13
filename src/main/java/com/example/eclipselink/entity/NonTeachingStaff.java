@@ -1,10 +1,8 @@
 package com.example.eclipselink.entity;
 
-import javax.persistence.DiscriminatorValue;
 import javax.persistence.Entity;
 
 @Entity
-@DiscriminatorValue( value = "NS" )
 
 public class NonTeachingStaff extends Staff {
 	

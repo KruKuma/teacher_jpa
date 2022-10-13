@@ -13,8 +13,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table
-@Inheritance(strategy = InheritanceType.SINGLE_TABLE)
-@DiscriminatorColumn(name = "type")
+@Inheritance(strategy = InheritanceType.TABLE_PER_CLASS)
 
 public class Staff implements Serializable {
 	@Id
